@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="profile.css">
+    <title>Command Center</title>
+  </head>
+  <body>
+    <section>
+      <h1>ADMIN PAGE</h1>
+    </section>
+    <section>
+      <p> <a href="/">LOG OUT</a></p>
+    </section>
+    <section>
+      <h3>Number of Games Lost:</h3>
+      <p><%= data[0].local.win %></p>
+    </section>
+    <section>
+      <h3>Number of Games Won:</h3>
+      <p><%= data[0].local.lost %></p>
+    </section>
+    <section>
+      <h3>Money Lost:</h3>
+      <p>$<%= data[0].local.winnings %></p>
+    </section>
+    <section>
+      <h3>Money Won:</h3>
+      <p>$<%= data[0].local.losses %></p>
+    </section>
+     <!-- <p> <%= user %> </p> -->
+     <!-- bossman@yahoo.com -->
+  </body>
+</html>

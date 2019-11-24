@@ -1,0 +1,11 @@
+section{
+  text-align: center;
+}
+body{
+  background-image: url("img/admin-user-screen.jpg");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+    font-size: 28px;
+}

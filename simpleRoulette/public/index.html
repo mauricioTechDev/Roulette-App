@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Roulette</title>
+  </head>
+  <body>
+    <form action="/login" method="post">
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password">
+        </div>
+
+        <button type="submit" class="btn btn-warning btn-lg">Login</button>
+    </form>
+    <section>
+      <p>Number Bet</p>
+      <select class="number" name="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+      </select>
+      <p>Color Bet</p>
+      <select class="color" name="">
+        <option value="red">Red</option>
+        <option value="black">Black</option>
+      </select>
+      <p>Cash Bet</p>
+      <input type="number" class="bet" value="bet">
+      <button type="button" class="submit">Submit</button>
+    </section>
+    <h3></h3>
+    <h2>Current wins/losses = <span>0</span></h2>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
