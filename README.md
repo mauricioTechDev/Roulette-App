@@ -26,7 +26,6 @@
 
 1. run `node server.js`
 2. Navigate to `localhost:3000`
-3. email bossman@yahoo.com  pass 212121
 3. Have fun ;)
 
 ## Credit
